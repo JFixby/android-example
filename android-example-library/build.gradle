@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven' // ADD THIS
 apply plugin: 'eclipse'
 
-group='com.github.jitpack'
+group='com.github.jfixby'
 
 repositories {
         	 maven { url 'https://jitpack.io' }
