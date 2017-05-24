@@ -3,6 +3,12 @@ apply plugin: 'com.github.dcendents.android-maven' // ADD THIS
 
 group='com.github.jitpack'
 
+repositories {
+        	 maven { url 'https://jitpack.io' }
+        	 mavenCentral()
+        	 maven {url "https://maven.google.com"}
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -16,8 +22,14 @@ android {
     }
 }
 
+ext {
+        gdxVersion = '1.9.6'
+        scarabeiVersion = "6cdcc06c39"
+}
+
 dependencies {
     // add dependencies here
+     compile "com.github.Scarabei.Scarabei:scarabei-api:$scarabeiVersion"
 }
 
 // build a jar with source files
