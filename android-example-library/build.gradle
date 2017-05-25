@@ -61,7 +61,7 @@ eclipse {
 dependencies {
     // add dependencies here
      compile "com.github.Scarabei.Scarabei:scarabei-api:$scarabeiVersion"
-     compile fileTree(dir: 'android-api', include: ['*.jar'])
+     compile group: 'com.google.android', name: 'android', version: '4.1.1.4'
 }
 
 // build a jar with source files
