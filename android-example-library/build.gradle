@@ -60,7 +60,7 @@ eclipse {
 
 dependencies {
     // add dependencies here
-     compile "com.github.Scarabei.Scarabei:scarabei-api:$scarabeiVersion"
+     //compile "com.github.Scarabei.Scarabei:scarabei-api:$scarabeiVersion"
      compile group: 'com.google.android', name: 'android', version: '4.1.1.4'
 }
 
