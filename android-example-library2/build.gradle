@@ -1,0 +1,13 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+sourceSets {
+        main {
+              java {
+                       srcDirs = ['src/']
+                   }
+        resources {
+            
+                   }
+        }
+}

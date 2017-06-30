@@ -1,1 +1,2 @@
 include ':android-example-library'
+include ':android-example-library2'
