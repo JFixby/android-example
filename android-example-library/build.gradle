@@ -25,7 +25,7 @@ android {
 
 ext {
         gdxVersion = '1.9.6'
-        scarabeiVersion = "6cdcc06c39"
+        scarabeiVersion = "1.5.1"
 }
 
 eclipse {
